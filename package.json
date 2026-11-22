@@ -1,0 +1,12 @@
+{
+    "name": "lwc-refreshable-data",
+    "private": true,
+    "version": "1.0.0",
+    "description": "Keeps custom Lightning web components fresh: a refreshable-data mixin, a refresh platform event with filtered channels, a message channel and an Aura bridge.",
+    "scripts": {
+        "test": "sfdx-lwc-jest"
+    },
+    "devDependencies": {
+        "@salesforce/sfdx-lwc-jest": "^7.9.0"
+    }
+}
