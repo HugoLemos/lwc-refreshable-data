@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AuraDefinitionBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>66.0</apiVersion>
+    <description>Renders nothing. Fires force:refreshView when a RecordRefresh__e or a RecordRefresh__c message names this page's record, so standard components show the change.</description>
+</AuraDefinitionBundle>

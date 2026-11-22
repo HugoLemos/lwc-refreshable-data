@@ -1,0 +1,9 @@
+<design:component label="Refresh view bridge">
+    <design:attribute
+        name="channel"
+        label="Refresh channel"
+        description="The RecordRefresh__e channel this page listens on."
+        datasource="/event/DefaultRefresh__chn,/event/SalesRefresh__chn,/event/ServiceRefresh__chn"
+        default="/event/DefaultRefresh__chn"
+    />
+</design:component>

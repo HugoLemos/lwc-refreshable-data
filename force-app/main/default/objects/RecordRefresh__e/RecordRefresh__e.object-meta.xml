@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>Asks open pages that show RecordId__c to re-read. Blank RecordId__c: every listener on the channel. Domain__c picks the channel: subscribe to a channel, not to the event.</description>
+    <eventType>HighVolume</eventType>
+    <label>Record refresh</label>
+    <pluralLabel>Record refreshes</pluralLabel>
+    <publishBehavior>PublishAfterCommit</publishBehavior>
+</CustomObject>

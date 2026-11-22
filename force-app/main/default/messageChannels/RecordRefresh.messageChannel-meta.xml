@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningMessageChannel xmlns="http://soap.sforce.com/2006/04/metadata">
+    <masterLabel>RecordRefresh</masterLabel>
+    <isExposed>false</isExposed>
+    <description>Records changed in this browser: components in any workspace tab that show one of them re-read.</description>
+    <lightningMessageFields>
+        <fieldName>recordIds</fieldName>
+        <description>Ids of the records that changed.</description>
+    </lightningMessageFields>
+    <lightningMessageFields>
+        <fieldName>source</fieldName>
+        <description>The sending component, which ignores its own message.</description>
+    </lightningMessageFields>
+</LightningMessageChannel>

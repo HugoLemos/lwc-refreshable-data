@@ -1,0 +1,10 @@
+<aura:component implements="flexipage:availableForRecordHome,force:hasRecordId">
+    <!-- Renders nothing: fires force:refreshView so standard components show changes to this page's record. -->
+    <aura:attribute name="channel" type="String" default="/event/DefaultRefresh__chn" />
+    <aura:attribute name="subscription" type="Object" access="private" />
+    <aura:attribute name="pendingRefresh" type="Integer" access="private" />
+    <aura:handler name="init" value="{!this}" action="{!c.onInit}" />
+    <aura:handler name="destroy" value="{!this}" action="{!c.onDestroy}" />
+    <lightning:empApi aura:id="empApi" />
+    <lightning:messageChannel type="RecordRefresh__c" onMessage="{!c.onMessage}" scope="APPLICATION" />
+</aura:component>
