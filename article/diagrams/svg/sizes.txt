@@ -1,8 +1,0 @@
-01-one-save 880 470
-02-signals 880 540
-03-which-signal 880 500
-04-mixin 880 340
-05-no-chains 880 340
-06-across-tabs 880 430
-07-channels 880 340
-08-bridge-burst 880 250
